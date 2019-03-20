@@ -1,0 +1,91 @@
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\Bdbay.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\Bdbay.pdb
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\Antlr3.Runtime.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.Core.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\EntityFramework.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\System.Web.Optimization.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\System.Web.Providers.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\WebGrease.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\EntityFramework.xml
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.Core.xml
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\obj\Debug\Bdbay.csprojResolveAssemblyReference.cache
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\obj\Debug\Bdbay.dll
+C:\Users\Khulna IT Village\Desktop\demo\Bdbay\Bdbay\obj\Debug\Bdbay.pdb
+E:\Desktop\demo\Bdbay\Bdbay\bin\Bdbay.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\Bdbay.pdb
+E:\Desktop\demo\Bdbay\Bdbay\bin\Antlr3.Runtime.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\AspNet.ScriptManager.jQuery.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.AspNet.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.Core.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\EntityFramework.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\Microsoft.Web.Infrastructure.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\System.Web.Optimization.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\System.Web.Providers.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\WebGrease.dll
+E:\Desktop\demo\Bdbay\Bdbay\bin\EntityFramework.xml
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.Core.xml
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.xml
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.xml
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Desktop\demo\Bdbay\Bdbay\bin\DotNetOpenAuth.AspNet.xml
+E:\Desktop\demo\Bdbay\Bdbay\obj\Debug\Bdbay.csprojResolveAssemblyReference.cache
+E:\Desktop\demo\Bdbay\Bdbay\obj\Debug\Bdbay.dll
+E:\Desktop\demo\Bdbay\Bdbay\obj\Debug\Bdbay.pdb
+E:\Desktop\demo\Bdbay\Bdbay\bin\Bdbay.dll.config
+C:\Users\Piash\Downloads\Bdbay\Bdbay\obj\Debug\Bdbay.csprojResolveAssemblyReference.cache
+C:\Users\Piash\Downloads\Bdbay\Bdbay\obj\Debug\Bdbay.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\obj\Debug\Bdbay.pdb
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\Bdbay.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\Bdbay.pdb
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\Antlr3.Runtime.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.Core.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\EntityFramework.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\System.Web.Optimization.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\System.Web.Providers.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\WebGrease.dll
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\EntityFramework.xml
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.Core.xml
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Piash\Downloads\Bdbay\Bdbay\bin\DotNetOpenAuth.AspNet.xml

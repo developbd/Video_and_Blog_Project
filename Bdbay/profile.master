@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Home.Master" AutoEventWireup="true" CodeBehind="profile.master.cs" Inherits="Bdbay.profile" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Body" runat="server">
+             <asp:Panel ID="Panel1"  runat="server">
+                <div class="profile-stats">
+                    <div class="row secBg">
+                        <div class="large-12 columns">
+                            <div class="profile-author-img">
+                                <asp:Image ID="UserImage" runat="server" />                               
+                            </div>
+                            <div class="profile-subscribe">
+                                <span><i class="fa fa-users"></i>
+                                    <asp:Label ID="lblTotalSubscrib" runat="server" ></asp:Label></span>
+                              
+                            </div>
+                            <div class="clearfix">
+                                <div class="profile-author-name float-left">
+                                    <h4>
+                                        <asp:Label ID="lblFullname" runat="server"></asp:Label></h4>
+                                    <p>Join Date : <span>
+                                        <asp:Label ID="lbljoinDate" runat="server"></asp:Label></span></p>
+                                </div>
+                                <div class="profile-author-stats float-right">
+                                    <ul class="menu">
+                                        <li>
+                                            <div class="icon float-left">
+                                                <i class="fa fa-video-camera"></i>
+                                            </div>
+                                            <div class="li-text float-left">
+                                                <p class="number-text">
+                                                    <asp:Label ID="lblVideos" runat="server" ></asp:Label></p>
+                                                <span>Videos</span>
+                                            </div>
+                                        </li>                                        
+                                        <li>
+                                            <div class="icon float-left">
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                            <div class="li-text float-left">
+                                                <p class="number-text">
+                                                    <asp:Label ID="lblViews" runat="server" ></asp:Label></p>
+                                                <span>Views</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon float-left">
+                                                <i class="fa fa-book"></i>
+                                            </div>
+                                            <div class="li-text float-left">
+                                                <p class="number-text">
+                                                    <asp:Label ID="lblBlog" runat="server" ></asp:Label></p>
+                                                <span>Blog</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon float-left">
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                            <div class="li-text float-left">
+                                                <p class="number-text">
+                                                    <asp:Label ID="lblBlogView" runat="server" ></asp:Label></p>
+                                                <span>Views</span>
+                                            </div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </asp:Panel>
+
+    <asp:ContentPlaceHolder ID="profilebody" runat="server"></asp:ContentPlaceHolder>
+
+</asp:Content>

@@ -1,0 +1,277 @@
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true"  CodeBehind="Home.master.cs" Inherits="Bdbay.Home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>BD Bay Online</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link rel="stylesheet" href="css/theme.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="layerslider/css/layerslider.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/responsive.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .hob {
+        cursor:pointer;
+        font-size:13px;
+        height:30px;
+        line-height:30px;
+			background-color:#292930;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+        }
+            .hob:hover {
+            background-color:#C3002F;
+			color:#fff;
+              -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+            }
+        .color {
+        color:#C3002F;
+        font-size:15px;
+        }
+		.hob:hover .color{
+			color:#fff;
+		}
+    </style>
+    <link rel="shortcut icon" href="../videoads.png" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <!--header-->
+        <div class="off-canvas position-left light-off-menu" id="offCanvas"  data-off-canvas>
+            <div class="off-menu-close">
+                <h3>BD BayOnline </h3>
+                <span data-toggle="offCanvas"><i class="fa fa-times"></i></span>
+            </div>
+            <ul class="vertical menu off-menu" data-responsive-menu="drilldown">
+
+                <li><a href="Home"><i class="fa fa-home"></i>Home</a></li>
+                <%--<li class="has-submenu" data-dropdown-menu="example1">
+                    <a href="Education"><i class="fa fa-film"></i>Education</a>                
+                </li>--%>
+                <li><a href="History"><i class="fa fa-th"></i>History</a></li>
+                <li><a href="like"><i class="fa fa-user"></i>Like Video</a></li>
+                <li><a href="subscribe"><i class="fa fa-envelope"></i>Subscription</a></li>
+                <li><a href="About/about.html"><i class="fa fa-info"></i>About</a></li>
+                <li><a href="http://todaystudy.bdbayonline.com"><i class="fa fa-globe"></i>TodayStudy</a></li>
+            </ul>
+            <div class="off-social">
+                <h6>Get Socialize</h6>
+                <a href="https://www.facebook.com/BD-Bay-Online-2257911547764493/"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/BDBayOnline"><i class="fa fa-twitter"></i></a>
+                <a href="https://instagram.com/bdbayonline/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a href="https://instagram.com/bdbayonline/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+				<a href="https://www.youtube.com/channel/UCF5dvEKPBKpi9dkdDIXNSBQ?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+            </div>
+            <h6 style="text-align:center;">Develop by <a href="htt://developbd.net">DevelopBD</a></h6>
+        </div>
+        <div class="off-canvas-content" data-off-canvas-content>
+            <header>
+                <!--Navber-->
+                <section id="navBar">
+                    <nav class="sticky-container" data-sticky-container>
+                        <div class="sticky topnav" data-sticky data-top-anchor="navBar" data-btm-anchor="footer-bottom:bottom" data-margin-top="0" data-margin-bottom="0" style="width: 100%; background: #fff;" data-sticky-on="large">
+                            <div class="title-bar" data-responsive-toggle="beNav" data-hide-for="large">
+                                <button class="menu-icon" type="button" data-toggle="offCanvas"></button>
+                                <div class="title-bar-title"><img src="images/logo2.png" alt="logo"></div>
+                            </div>
+                            <div class="show-for-large topbar-full clearfix" id="beNav" style="width: 100%;">
+                                <div class="top-bar-left btn-toggle">
+                                    <button type="button" data-toggle="offCanvas" class="secondary-button"><i class="fa fa-bars"></i></button>
+                                </div>
+                                <div class="top-bar-left toplogo">
+                                    <ul class="menu">
+                                        <li class="menu-text">
+                                            <a href="Home"><img src="images/logo2.png" alt="logo"></a>
+                                        </li>
+                                    </ul>
+                                </div> 
+                                                           
+                                <script type="text/javascript">
+                                    //function runScript(e, text) {
+                                    //    if (e.keyCode == 13) {
+                                    //        var sc = document.getElementById('Text1').value;
+                                    //        window.location = "search?=" + sc + "";
+                                    //        return false;
+                                    //    }
+                                    //}
+                                    //onkeypress="return runScript(event)"
+
+                                    function scarchBar() {
+                                        var sc = document.getElementById('Text1').value;
+                                        window.location = "search?=" + sc + "";
+                                        return false;
+                                    }
+
+    </script>                   
+
+                                <div class="top-bar-left topsearch" style="margin-left:150px;">
+                                    <div class="search-bar-full">                                       
+                                            <div class="input-group">
+                                                <asp:TextBox ID="txtScarch" CssClass="input-group-field border_color" type="search" placeholder="Enter your keyword here ..." runat="server"></asp:TextBox>
+                                                <div class="input-group-button icon-btn">
+                                                    <asp:Button ID="btnScarch" OnClick="btnScarch_Click" CssClass="button my_search" runat="server" Text="search" />                                                 
+                                                    <i class="fa fa-search" style="color:#fff;"></i>
+                                                </div>
+                                            </div>
+                                       
+                                    </div>
+                                </div>
+
+                                <div class="top-bar-left topbtn">
+                                    <div class="top-button">
+
+                                        <ul class="menu my_menu">
+                                            <li>
+												<i onclick="location.href='upload'" title="Upload" style="cursor:pointer;" >
+													<i class="fa fa-cloud-upload" aria-hidden="true" style="color:#C3002F;font-size:30px;"></i>
+												</i>
+											</li>
+                                            <li>
+												<i onclick="location.href='write'" title="Blog Write" style="cursor:pointer; margin-left:30px;" >
+													<i class="fa fa-book" aria-hidden="true" style="color:#C3002F;font-size:30px;"></i>
+												</i>
+											</li>
+            <li class="dropdown-login" >
+                
+                <asp:PlaceHolder ID="WalcomImage" runat="server"></asp:PlaceHolder>
+                <asp:Panel ID="pnlWalcome" CssClass="login-form" runat="server">
+                    <p class="text-center">
+                        <asp:Label ID="lblFullname" runat="server" ></asp:Label></p>
+                    <div class="input-group hob" onclick="location.href='Dashboard'">
+                        &nbsp;&nbsp;&nbsp;<i class="fa fa-dashboard color"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#fff;">Dashboard</span>
+                    </div>
+                    <div class="input-group hob" onclick="location.href='videos'">
+                        &nbsp;&nbsp;&nbsp;<i class="fa fa-video-camera color"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#fff;">Video</span>
+                    </div>
+                    <div class="input-group hob" onclick="location.href='Blog'">
+                        &nbsp;&nbsp;&nbsp;<i class="fa fa-rss color"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#fff;">Blog</span>
+                    </div>
+                    <div class="input-group hob" onclick="location.href='Subscribe'">
+                        &nbsp;&nbsp;&nbsp;<i class="fa fa-users color"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#fff;">Subscribe</span>
+                    </div>
+                   
+                    <div class="input-group hob" onclick="location.href='logout'">
+						&nbsp;&nbsp;&nbsp;<i class="fa fa-sign-out color"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#fff;">Logout</span>
+                    </div>
+
+                </asp:Panel>
+            </li>
+
+
+             <li class="dropdown-login" > 
+                <asp:PlaceHolder ID="loginName" runat="server"></asp:PlaceHolder>
+                <asp:Panel ID="pnllogin" CssClass="login-form" runat="server">
+                    <h6 class="text-center">Great to have you back!</h6>
+                    
+                        <div class="input-group">
+                            <span class="input-group-label"><i class="fa fa-user"></i></span>
+                            <asp:TextBox ID="txtEmail" CssClass="input-group-field" placeholder="Email" TextMode="Email" runat="server"></asp:TextBox>
+                        </div>
+                        <div class="input-group">
+                            <span class="input-group-label"><i class="fa fa-lock"></i></span>
+                            <asp:TextBox ID="txtpassword" CssClass="input-group-field" value="" placeholder="Password" TextMode="Password" runat="server"></asp:TextBox>							
+                        </div>
+                    
+					<span style="display:inline-flex; font-weight:bold; font-size:12px;"><input type="checkbox" class="my_checkbox" onclick="myFunction()"/>Show Password</span><br/><br/>
+                   
+                    <asp:Button ID="btnlogin" OnClick="btnlogin_Click" runat="server" Text="Login Now" />
+
+                  
+                    <p class="text-center">New here? <a class="newaccount" href="Registation">Create a new Account</a> </p>
+                    <p class="text-center"><a class="newaccount" href="forgotpassword">Forgot Password</a> </p>
+                </asp:Panel>
+
+            </li>
+
+           
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       <%-- <div class="another_nav">
+                            <div class="another_nav_area">
+                                <ul>
+                                    <li><a href="http://bdjobscorner.com">JobsCorner</a></li>
+                                    <li><a href="http://doctorpoint.bdbayonline.com">Doctors</a></li>
+                                    <li><a href="http://realestate.bdbayonline.com">RealEstate</a></li>
+                                 
+                                </ul>
+                            </div>
+                        </div>--%>
+                    </nav>
+
+                </section>
+            </header><!-- End Header -->
+
+            
+        <asp:ContentPlaceHolder ID="Body" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+
+   
+            <div id="footer-bottom" style="background-color:rgba(0, 0, 0, 0.00);">
+                
+               
+            </div>
+        </div><!--end off canvas content-->
+    </div><!--end off canvas wrapper inner-->
+</div>
+
+
+
+    </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/what-input/what-input.js"></script>
+<script src="bower_components/foundation-sites/dist/foundation.js"></script>
+<script src="js/jquery.showmore.src.js" type="text/javascript"></script>
+<script src="js/app.js"></script>
+<script src="layerslider/js/greensock.js" type="text/javascript"></script>
+<!-- LayerSlider script files -->
+<script src="layerslider/js/layerslider.transitions.js" type="text/javascript"></script>
+<script src="layerslider/js/layerslider.kreaturamedia.jquery.js" type="text/javascript"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/inewsticker.js" type="text/javascript"></script>
+<script src="js/jquery.kyco.easyshare.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        $("button").click(function () {
+            $(".another_nav").fadeIn(3000);
+        });
+    });
+</script>
+	
+<script>
+    function myFunction() {
+        var x = document.getElementById("txtpassword");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    }
+</script>
+
+	
+</body>
+</html>
